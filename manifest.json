@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "web tag",
+  "version": "0.2",
+  "description": "The easiest way to grime up your web experience",
+  "icons": {
+    "16": "webtag.png",
+    "48": "webtag.png",
+    "128": "webtag.png"
+  },
+  "permissions": [
+       "downloads"
+     ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+          "default_title": "web tag",
+          "default_icon": "webtag.png"
+        },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["p5.js", "p5.dom.js", "content.js"]
+    }
+  ]
+}
