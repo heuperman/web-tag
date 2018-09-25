@@ -1,6 +1,8 @@
 # web tag
 A Chrome extension that lets you draw on top of websites using the p5 JavaScript library.
 
+![web tag example](https://i.imgur.com/kaBb0q2.png)
+
 ### How to use:
 - open Chrome
 - visit [chrome://extensions](chrome://extensions)
